@@ -1,0 +1,147 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Constant, String, Comment, Support",
+	"tokenColors": [
+		// white : eeeeee, D4D4D4, 
+		// black : 0c0c0c, 212121, 424242, 848484
+		// blue : 1660c2
+		// grey: 808080
+		{
+			"scope": "Comment",
+			"settings": {
+				"foreground": "#6fa157"
+			}
+		},
+		{
+			"scope": "string",
+			"settings": {
+				"foreground": "#926756"
+			}
+		},
+		{
+			"scope": "string.tag",
+			"settings": {
+				"foreground": "#8f6453"
+			}
+		},
+		{
+			"scope": "string.value",
+			"settings": {
+				"foreground": "#755244"
+			}
+		},
+		{
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#8b4848"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#30597a"
+			}
+		},
+		{
+			"scope": ["constant.language"],
+			"settings": {
+				"foreground": "#315a7c"
+			}
+		},
+		{
+			"scope": ["constant.sha.git-rebase"],
+			"settings": {
+				"foreground": "#64725c"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#5a6853"
+			}
+		},
+		{
+			"scope": "constant.regexp",
+			"settings": {
+				"foreground": "#3f405f"
+			}
+		},
+		{
+			"scope": "constant.character",
+			"settings": {
+				"foreground": "#365e80"
+			}
+		},
+		{
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#7c6c48"
+			}
+		},
+		{
+			"scope": [
+				"constant.character.character-class.regexp",
+				"constant.other.character-class.set.regexp",
+				"constant.other.character-class.regexp",
+				"constant.character.set.regexp"
+			],
+			"settings": {
+				"foreground": "#743b3b"
+			}
+		},
+		{
+			"name": "Types declaration and references, TS grammar specific",
+			"scope": [
+				"support.constant.math",
+				"support.constant.dom",
+				"support.constant.json",
+			],
+			"settings": {
+				"foreground": "#184970"
+			}
+		},
+		{
+			"name": "CSS property value",
+			"scope": [
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media",
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color"
+			],
+			"settings": {
+				"foreground": "#694b3f"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"constant.other.symbol",
+				"constant.other.key",
+				"constant.other.php"
+				// "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#1d3c58"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#fafafa"
+			}
+		},
+	]
+}

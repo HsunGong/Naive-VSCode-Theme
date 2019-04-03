@@ -1,0 +1,142 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Constant, String, Comment, Support, regularExpr",
+	"include": "./default.json",
+	"tokenColors": [
+		// white : eeeeee, D4D4D4, 
+		// black : 0c0c0c, 212121, 424242, 848484
+		// blue : 1660c2
+		// grey: 808080
+		{
+			"scope": "Comment",
+			"settings": {
+				"foreground": "#192358"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"string.tag",
+				"string.value",
+			],
+			"settings": {
+				"foreground": "#daa793"
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"constant.sha.git-rebase"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": "constant.character",
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#d7ba7d"
+			}
+		},
+		{
+			"name": "Types declaration and references, TS grammar specific",
+			"scope": [
+				"support.constant.math",
+				"support.constant.dom",
+				"support.constant.json",
+			],
+			"settings": {
+				"foreground": "#2d8cda"
+			}
+		},
+		{
+			"name": "CSS property value",
+			"scope": [
+				"support.constant.property-value",
+				"support.constant.font-name",
+				"support.constant.media-type",
+				"support.constant.media",
+				"constant.other.color.rgb-value",
+				"constant.other.rgb-value",
+				"support.constant.color"
+			],
+			"settings": {
+				"foreground": "#CE9178"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"constant.other.symbol",
+				"constant.other.key",
+				"constant.other.php"
+				// "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#3b7dbb"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#fafafa"
+			}
+		},
+		{
+			"name": "Regular expression groups",
+			"scope": [
+				"punctuation.definition.group.regexp",
+				"punctuation.definition.group.assertion.regexp",
+				"punctuation.definition.character-class.regexp",
+				"punctuation.character.set.begin.regexp",
+				"punctuation.character.set.end.regexp",
+				"support.other.parenthesis.regexp",
+				"keyword.operator.negation.regexp",
+				"string.regexp",
+				"constant.character.character-class.regexp",
+				"constant.other.character-class.set.regexp",
+				"constant.other.character-class.regexp",
+				"constant.character.set.regexp",
+				"constant.regexp",
+			],
+			"settings": {
+				"foreground": "#d1ab7a"
+			}
+		},
+	]
+}

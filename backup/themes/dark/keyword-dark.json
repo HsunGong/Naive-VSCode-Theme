@@ -1,0 +1,79 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "keyWord Support",
+    "tokenColors": [
+        // white : eeeeee, D4D4D4, 
+        // black : 0c0c0c, 212121, 424242, 848484
+        // blue : 1660c2
+        // grey: 808080
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "keyword.control",
+            "settings": {
+                "foreground": "#5683d6"
+            }
+        },
+        {
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.new",
+                "keyword.operator.expression",
+                "keyword.operator.cast",
+                "keyword.operator.sizeof",
+                "keyword.operator.instanceof",
+                "keyword.operator.logical.python"
+            ],
+            "settings": {
+                "foreground": "#4698db"
+            }
+        },
+        {
+            "scope": "keyword.other.unit",
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.section.embedded.begin.php",
+                "punctuation.section.embedded.end.php"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": "support.function.git-rebase",
+            "settings": {
+                "foreground": "#9cdcfe"
+            }
+        },
+        {
+            "name": "this.self",
+            "scope": "variable.language",
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator.or.regexp",
+                "keyword.operator.quantifier.regexp",
+                "keyword.control.anchor.regexp"
+            ],
+            "settings": {
+                "foreground": "#DCDCAA"
+            }
+        },
+    ]
+}

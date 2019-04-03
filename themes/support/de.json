@@ -1,0 +1,10 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Markdown Support",
+    "tokenColors": [
+        // white : eeeeee, D4D4D4, 
+        // black : 0c0c0c, 212121, 424242, 848484
+        // blue : 1660c2
+        // grey: 808080
+    ]
+}

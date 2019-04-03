@@ -1,0 +1,41 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Markdown Support",
+	"tokenColors": [
+		// white : eeeeee, D4D4D4, 
+		// black : 0c0c0c, 212121, 424242, 848484
+		// blue : 1660c2
+		// grey: 808080
+		{
+			"name": "coloring of the Java import and package identifiers",
+			"scope": [
+				"storage.modifier.import.java",
+				"variable.language.wildcard.java",
+				"storage.modifier.package.java"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"name": "Reset JavaScript string interpolation expression",
+			"scope": [
+				"meta.template.expression"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"name": "Sub-methods",
+			"scope": [
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js"
+			],
+			"settings": {
+				"foreground": "#e4e4e4"
+			}
+		},
+	]
+}
