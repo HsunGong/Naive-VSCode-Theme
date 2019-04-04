@@ -45,7 +45,7 @@
 		{
 			"scope": "header",
 			"settings": {
-				"foreground": "#282885"
+				"foreground": "#5050cc"
 			}
 		},
 		{
@@ -395,7 +395,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#4845df"
+				"foreground": "#5e5be7"
 			}
 		},
 		//  "name": "keyWord Support",
@@ -497,7 +497,7 @@
 				"text.html.markdown markup.inline.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#1660c2"
+				"foreground": "#296fca"
 			}
 		},
 		{ // like <> symbol
@@ -526,7 +526,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#8525d3"
+				"foreground": "#9147ce"
 			}
 		},
 		{
@@ -593,7 +593,7 @@
 				"constant.other.reference.link.markdown" // "Markdown - Link Anchor"
 			],
 			"settings": {
-				"foreground": "#29572f"
+				"foreground": "#448f4e"
 			}
 		},
 		{
@@ -646,19 +646,19 @@
 		{
 			"scope": "markup.inserted",
 			"settings": {
-				"foreground": "#798b70"
+				"foreground": "#95af87"
 			}
 		},
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#8f6351"
+				"foreground": "#a7735f"
 			}
 		},
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#37658a"
+				"foreground": "#4b86b6"
 			}
 		},
 		{
@@ -670,7 +670,7 @@
 		{
 			"scope": "punctuation.definition.list.begin.markdown",
 			"settings": {
-				"foreground": "#3c5886"
+				"foreground": "#4f6fa3"
 			}
 		},
 		// "name": "Dark Default Colors",
