@@ -25,6 +25,11 @@
 				"uiTheme": "vs-dark"
 			},
 			{
+				"label": "A Less Dark",
+				"path": "./themes/less_dark/whole.json",
+				"uiTheme": "vs-dark"
+			},
+			{
 				"label": "Z Light",
 				"path": "./themes/light/whole.json",
 				"uiTheme": "vs"
