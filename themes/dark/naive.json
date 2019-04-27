@@ -414,7 +414,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#dddddd"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 				"keyword.operator.logical.python"
 			],
 			"settings": {
-				"foreground": "#4698db"
+				"foreground": "#5dacec"
 			}
 		},
 		{
