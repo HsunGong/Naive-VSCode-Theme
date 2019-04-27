@@ -8,7 +8,7 @@
 		// white : eeeeee, D4D4D4, 
 		// black : 0c0c0c, 212121, 424242, 848484
 		"editor.foreground": "#D4D4D4",
-		"editor.background": "#1E1E1E",
+		"editor.background": "#14151a",
 		"editorIndentGuide.background": "#42424270",
 		"editorIndentGuide.activeBackground": "#424242",
 		"editor.inactiveSelectionBackground": "#50cee449",
@@ -32,7 +32,7 @@
 		"editorBracketMatch.background": "#6e6e6e59",
 		"editorWhitespace.foreground": "#EEFFFF40",
 		"editor.lineHighlightBackground": "#3131315e",
-		"editor.lineHighlightBorder": "#aaaaaa18",
+		"editor.lineHighlightBorder": "#aaaaaa31",
 		"editorOverviewRuler.border": "#212121",
 		"editorOverviewRuler.errorForeground": "#ee3c5a49",
 		"editorOverviewRuler.infoForeground": "#82fbff2f",
@@ -276,7 +276,7 @@
 				"entity.name.variable"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#838497"
 			}
 		},
 		{

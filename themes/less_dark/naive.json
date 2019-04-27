@@ -462,7 +462,7 @@
 			"scope": [
 				"keyword.operator.or.regexp",
 				"keyword.operator.quantifier.regexp",
-				"keyword.control.anchor.regexp"
+				"keyword.control.anchor.regexp",
 			],
 			"settings": {
 				"foreground": "#DCDCAA"
@@ -779,7 +779,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#acc5ff"
+				"foreground": "#9bb3eb"
 			}
 		},
 		// other
