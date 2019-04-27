@@ -1,7 +1,26 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"name": "naive Dark for normal and meta",
+	"colors": {
+		"editor.selectionHighlightBackground": "#4583ca2d", // unsel-but same
+		"editor.selectionHighlightBorder": "#aaaaaa41", // unsel-but same
+		"editor.selectionBackground": "#2dd7dd38",
+		"editor.inactiveSelectionBackground": "#50cee42c",
+		"selection.background": "#68ca8934",
+	},
 	"tokenColors": [
+		{
+			"name": "Variable and parameter name",
+			"scope": [
+				"variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable"
+			],
+			"settings": {
+				"foreground": "#97d3f3"
+			}
+		},
 		{
 			"scope": [
 				"meta.embedded",

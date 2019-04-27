@@ -3,19 +3,15 @@
 	"name": "Real Dark, Variable, func, type, control ",
 	"include": "./naive.json",
 	"colors": {
-        // white D4D4D4, CCCCCC, BBBBBB
-        // black 1E1E1E, 404040, 292929, 252526; 3A3D41, 383B3D
+		// white D4D4D4, CCCCCC, BBBBBB
+		// black 1E1E1E, 404040, 292929, 252526; 3A3D41, 383B3D
 		// white : eeeeee, D4D4D4, 
 		// black : 0c0c0c, 212121, 424242, 848484
 		"editor.foreground": "#D4D4D4",
 		"editor.background": "#14151a",
 		"editorIndentGuide.background": "#42424270",
 		"editorIndentGuide.activeBackground": "#424242",
-		"editor.inactiveSelectionBackground": "#50cee449",
-		"editor.selectionHighlightBackground": "#4583ca2a", // unsel-but same
-		"editor.selectionHighlightBorder": "#aaaaaa6b", // unsel-but same
-		"editor.selectionBackground": "#2dd7dd63",
-		"selection.background": "#68ca8957",
+
 		"editorCursor.foreground": "#c9bf98",
 		"editorRuler.foreground": "#424242",
 		"focusBorder": "#FFFFFF00",
@@ -265,18 +261,6 @@
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#6765e9"
-			}
-		},
-		{
-			"name": "Variable and parameter name",
-			"scope": [
-				"variable",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable"
-			],
-			"settings": {
-				"foreground": "#7fb3cf"
 			}
 		},
 		{
