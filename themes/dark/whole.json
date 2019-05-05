@@ -78,14 +78,7 @@
 		"inputValidation.warningBorder": "#FFCB6B50",
 		"dropdown.background": "#212121",
 		"dropdown.border": "#FFFFFF10",
-		"list.hoverForeground": "#FFFFFF",
-		"list.hoverBackground": "#1a1a1a",
-
-		"list.inactiveSelectionBackground": "#00000030",
-		"list.focusBackground": "#EEFFFF20",
-		"list.focusForeground": "#eeeeee",
-
-		"list.dropBackground": "#383B3D",
+		
 
 		"scrollbarSlider.background": "#a7a7a781",
 		"scrollbarSlider.hoverBackground": "#9b9b9bb4",
@@ -143,9 +136,7 @@
 
 		"settings.checkboxBackground": "#1a1a1a",
 		"settings.checkboxForeground": "#eeeeee",
-		"listFilterWidget.background": "#00000030",
-		"listFilterWidget.outline": "#00000030",
-		"listFilterWidget.noMatchesOutline": "#00000030"
+
 	},
 	"tokenColors": [
 		{
