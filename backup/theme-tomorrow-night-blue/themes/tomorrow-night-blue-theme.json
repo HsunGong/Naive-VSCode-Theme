@@ -1,5 +1,6 @@
 {
 	"type": "dark",
+	"$schema": "vscode://schemas/color-theme",
 	"colors": {
 		"focusBorder": "#bbdaff",
 		"errorForeground": "#a92049",
@@ -14,8 +15,8 @@
 		"editor.background": "#002451",
 		"editor.foreground": "#ffffff",
 		"editor.selectionBackground": "#003f8e",
-        "editor.lineHighlightBackground": "#00346e",
-        "editorLineNumber.activeForeground": "#949494",
+		"editor.lineHighlightBackground": "#00346e",
+		"editorLineNumber.activeForeground": "#949494",
 		"editorCursor.foreground": "#ffffff",
 		"editorWhitespace.foreground": "#404f7d",
 		"editorWidget.background": "#001c40",
@@ -62,7 +63,10 @@
 			}
 		},
 		{
-			"scope": ["meta.embedded", "source.groovy.embedded"],
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
 			"settings": {
 				"background": "#002451",
 				"foreground": "#FFFFFF"

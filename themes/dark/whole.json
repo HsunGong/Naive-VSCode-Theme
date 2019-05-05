@@ -7,6 +7,7 @@
 		// black 1E1E1E, 404040, 292929, 252526; 3A3D41, 383B3D
 		// white : eeeeee, D4D4D4, 
 		// black : 0c0c0c, 212121, 424242, 848484
+		
 		"editor.foreground": "#D4D4D4",
 		"editor.background": "#14151a",
 		"editorIndentGuide.background": "#42424270",
@@ -14,12 +15,10 @@
 
 		"editorCursor.foreground": "#c9bf98",
 		"editorRuler.foreground": "#424242",
-		"focusBorder": "#FFFFFF00",
 		"activityBarBadge.background": "#166ba3",
 		"activityBarBadge.foreground": "#0c0c0c",
 		"scrollbar.shadow": "#21212100",
 		"editorLink.activeForeground": "#eeeeee",
-		"progressBar.background": "#629c97",
 		"textLink.foreground": "#80CBC4",
 		"textLink.activeForeground": "#eeeeee",
 		"editorLineNumber.foreground": "#666666",
@@ -91,22 +90,7 @@
 		"list.focusForeground": "#eeeeee",
 		"list.highlightForeground": "#80CBC4",
 		"list.dropBackground": "#383B3D",
-		// "terminal.ansiWhite": "#ffffff",
-		// "terminal.ansiBlack": "#000000",
-		// "terminal.ansiBlue": "#82AAFF",
-		// "terminal.ansiCyan": "#89DDFF",
-		// "terminal.ansiGreen": "#C3E88D",
-		// "terminal.ansiMagenta": "#C792EA",
-		// "terminal.ansiRed": "#FF5370",
-		// "terminal.ansiYellow": "#FFCB6B",
-		// "terminal.ansiBrightWhite": "#ffffff",
-		// "terminal.ansiBrightBlack": "#4A4A4A",
-		// "terminal.ansiBrightBlue": "#82AAFF",
-		// "terminal.ansiBrightCyan": "#89DDFF",
-		// "terminal.ansiBrightGreen": "#C3E88D",
-		// "terminal.ansiBrightMagenta": "#C792EA",
-		// "terminal.ansiBrightRed": "#FF5370",
-		// "terminal.ansiBrightYellow": "#FFCB6B",
+
 		"scrollbarSlider.background": "#a7a7a781",
 		"scrollbarSlider.hoverBackground": "#9b9b9bb4",
 		"scrollbarSlider.activeBackground": "#6ba8a2b9",
@@ -131,8 +115,7 @@
 		"notifications.background": "#212121",
 		"notifications.foreground": "#eeeeee",
 		"notificationLink.foreground": "#80CBC4",
-		"badge.background": "#00000030",
-		"badge.foreground": "#4A4A4A",
+
 		"button.background": "#61616150",
 		"extensionButton.prominentBackground": "#C3E88D90",
 		"extensionButton.prominentHoverBackground": "#C3E88D",
@@ -145,7 +128,6 @@
 		"peekViewResult.matchHighlightBackground": "#61616150",
 		"peekViewEditor.matchHighlightBackground": "#61616150",
 		"debugToolBar.background": "#212121",
-		"pickerGroup.foreground": "#80CBC4",
 		"gitDecoration.deletedResourceForeground": "#FF537090",
 		"gitDecoration.conflictingResourceForeground": "#FFCB6B90",
 		"gitDecoration.modifiedResourceForeground": "#82AAFF90",
@@ -235,6 +217,7 @@
 				"foreground": "#4EC9B0"
 			}
 		},
+		
 		{
 			"name": "Number, , Function Argument, Tag Attribute, Embedded",
 			"scope": [

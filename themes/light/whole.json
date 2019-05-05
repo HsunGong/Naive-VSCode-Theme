@@ -18,7 +18,9 @@
     "scrollbar.shadow": "#b9b5b5b7", // for scrollbar from rights
     "editorLink.activeForeground": "#737a7e",
 
-    "selection.background": "#818181c5", // selected input text's back
+    "selection.background": "#cf9b9b79", // selected input text's back
+    "editor.selectionBackground": "#80cbc3a9",
+    "editor.selectionHighlightBackground": "#80cbc328",
     "progressBar.background": "#838d92cc",
     "textLink.foreground": "#be6579",
     "textLink.activeForeground": "#a4a6a7c0",
@@ -30,8 +32,6 @@
     "editorBracketMatch.background": "#FAFAFA",
     "editorWhitespace.foreground": "#90A4AE40",
     "editor.lineHighlightBackground": "#CCD7DA50",
-    "editor.selectionBackground": "#80cbc37a",
-    "editor.selectionHighlightBackground": "#80cbc344",
     "editorOverviewRuler.border": "#FAFAFA",
     "editorOverviewRuler.errorForeground": "#c7322f70",
     "editorOverviewRuler.infoForeground": "#6182B840",
@@ -103,9 +103,9 @@
     "input.foreground": "#0e0e0e", // text
     "input.placeholderForeground": "#494949", // sel text
     "input.border": "#00000010",// while holding part
-    "inputValidation.errorBorder": "#E5393550",
-    "inputValidation.infoBorder": "#538be450",
-    "inputValidation.warningBorder": "#FFB62C50",
+    "inputValidation.errorBorder": "#e5383579",
+    "inputValidation.infoBorder": "#538be46c",
+    "inputValidation.warningBorder": "#ffb52c73",
     
     "dropdown.background": "#FAFAFA",
     "dropdown.border": "#00000010",
