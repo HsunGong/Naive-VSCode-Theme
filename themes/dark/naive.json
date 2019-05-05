@@ -9,18 +9,28 @@
 		"activityBarBadge.foreground": "#0c0c0c",
 		
 		"list.highlightForeground": "#84ffff",
-		"list.inactiveSelectionForeground": "#84ffff",
+		"list.inactiveSelectionForeground": "#00c0c0",
 		"list.activeSelectionForeground": "#84ffff",
-		"list.inactiveFocusBackground": "#adadad83",
-		"list.errorForeground": "#ee3c5a49",
-		"list.invalidItemForeground": "#ee3c5a78",
-		"list.warningForeground": "#ffcb6b2f",
-		"list.activeSelectionBackground": "#1a1a1a55",
+		
+		// list of explorer items
+		"list.errorForeground": "#e94c4ca9", 
+		"list.invalidItemForeground": "#e94ca8a9",
+		"list.warningForeground": "#6df7cd9f", // file have warnings
+		// normal files
+		"gitDecoration.deletedResourceForeground": "#FF53709f",
+		"gitDecoration.conflictingResourceForeground": "#ff96339f",
+		"gitDecoration.modifiedResourceForeground": "#84abff9f",
+		"gitDecoration.untrackedResourceForeground": "#C3E88D9f",
+		"gitDecoration.ignoredResourceForeground": "#8484849f",
+		
+		"list.activeSelectionBackground": "#adadad20",
+		"list.inactiveFocusBackground": "#adadad08",
+		"list.inactiveSelectionBackground": "#adadad08",
+		
 		"list.hoverForeground": "#FFFFFF",
 		"list.hoverBackground": "#1a1a1a",
-		"list.inactiveSelectionBackground": "#00000030",
-		"list.focusBackground": "#EEFFFF20",
 		"list.focusForeground": "#eeeeee",
+		"list.focusBackground": "#EEFFFF20",
 		"list.dropBackground": "#383B3D",
 
 		"listFilterWidget.background": "#00000030",
