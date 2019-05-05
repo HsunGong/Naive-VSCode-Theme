@@ -5,30 +5,42 @@
 		"progressBar.background": "#84ffffd2",
 		
 		// from settings
-		// "activityBarBadge.background": "#84ffffc5",
-        // "list.activeSelectionForeground": "#84ffffc0",
-        // "list.inactiveSelectionForeground": "#84ffffa1",
-        // "list.highlightForeground": "#84ffffde",
-        // "editorSuggestWidget.highlightForeground": "#84FFFF",
-        // "textLink.foreground": "#84FFFF",
-        // "tab.activeBorder": "#84FFFF",
-        // "notificationLink.foreground": "#84FFFF",
-        // "editorWidget.resizeBorder": "#84FFFF",
-        // "editorWidget.border": "#84FFFF",
-        // "settings.modifiedItemIndicator": "#84FFFF",
-        // "settings.headerForeground": "#84FFFF",
-        // "panelTitle.activeBorder": "#84FFFF",
-        // "breadcrumb.activeSelectionForeground": "#84FFFF",
-        // "menu.selectionForeground": "#84FFFF",
-        // "menubar.selectionForeground": "#84FFFF",
-        // "scrollbarSlider.activeBackground": "#84FFFF50",
+		"activityBarBadge.background": "#84ffffc5",
+		"activityBarBadge.foreground": "#0c0c0c",
+		
+		"list.inactiveSelectionForeground": "#84ffffa1",
+        "list.activeSelectionForeground": "#84ffffc0",
+		"list.activeSelectionBackground": "#1a1a1a55",
+		"list.highlightForeground": "#84ffffde",
+		
+        "editorSuggestWidget.highlightForeground": "#84FFFF",
+		"textLink.foreground": "#84FFFF",
+		"textLink.activeForeground": "#eeeeee",
+		"tab.activeBorder": "#84FFFF",
+		"tab.activeModifiedBorder": "#848484",
+        "notificationLink.foreground": "#84FFFF",
+        "editorWidget.resizeBorder": "#84FFFF",
+        "editorWidget.border": "#84FFFF",
+        "settings.modifiedItemIndicator": "#84FFFF",
+        "settings.headerForeground": "#84FFFF",
+        "panelTitle.activeBorder": "#84FFFF",
+        "breadcrumb.activeSelectionForeground": "#84FFFF",
+        "menu.selectionForeground": "#84FFFF",
+        "menubar.selectionForeground": "#84FFFF",
+        "scrollbarSlider.activeBackground": "#84FFFF50",
+		
+		// suggest intelligent
+		"editorSuggestWidget.background": "#212121",
+		"editorSuggestWidget.foreground": "#eeeeee",
+		"editorSuggestWidget.selectedBackground": "#00000050",
+		"editorSuggestWidget.border": "#FFFFFF10",
 
-
-		"editor.selectionHighlightBackground": "#2d90942c", // unsel-but same
-		"editor.selectionHighlightBorder": "#aaaaaa41", // unsel-but same
-		"editor.selectionBackground": "#2d90945e",
-		"editor.inactiveSelectionBackground": "#50cee42c",
-		"selection.background": "#68ca8934",
+		"editor.selectionHighlightBackground": "#00f7ff1e", // unsel-but the same
+		"editor.selectionHighlightBorder": "#aaaaaa85", // unsel-but the same
+		"editor.selectionBackground": "#00f7ff55", // cur selected
+		"editor.selectionForeground": "#ff0000",
+		"editor.inactiveSelectionBackground": "#00f7ff3b", // before selected but not focus now
+		// "selection.background": "#00ff55ef",
 
 		"editor.findMatchBackground": "#edc9d800",
 		"editor.findMatchHighlightBackground": "#edc9d831",
@@ -36,6 +48,7 @@
 		"pickerGroup.foreground": "#80CBC4",
 		"badge.background": "#00f7ff36",
 		"badge.foreground": "#c5c5c5",
+
 		// "terminal.ansiWhite": "#ffffff",
 		// "terminal.ansiBlack": "#000000",
 		// "terminal.ansiBlue": "#82AAFF",
