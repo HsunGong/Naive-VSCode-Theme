@@ -2,7 +2,7 @@
     "name": "vsc-xun-theme",
     "displayName": "Insight-Default-Theme",
     "description": "Modified via Material Theme and Visual Studio Code Default",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "insight",
     "engines": {
         "vscode": "^1.31.0"
