@@ -2,11 +2,11 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "name": "Theme-Light",
-  "include": "./naive.json",
   "type": "light",
   "colors": {
     "editor.background": "#fcfcfc",
     "editor.foreground": "#161616",
+    
     "editor.inactiveSelectionBackground": "#E5EBF1",
 		"settings.textInputBorder": "#CECECE",
 		"settings.numberInputBorder": "#CECECE",

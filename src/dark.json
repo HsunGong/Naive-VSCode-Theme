@@ -1,0 +1,19 @@
+{
+    "name" : "A Dark",
+    "uiTheme" : "vs-dark",
+    "$schema": "vscode://schemas/color-theme",
+    "description": "Real Dark, Variable, func, type, control",
+    "colormap": {
+        // TODO: add map; add foreground -> color
+        "shade" : 0.1, // add shade ...
+        "white" : "CCCCCC", // foreground
+        "black" : "212121", // background
+        "error": "#DA6771",
+        "warning": "#FFF099",
+        "green": "#4EB071",
+        "blue": "#399EF4"
+    },
+    "overrides": {
+        "editorGutter.....": "green"
+    }
+}
